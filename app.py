@@ -111,11 +111,18 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
+
+    #Add prompt asking whether user would like to save
     save_prompt = questionary.confirm("Would you like to save your loans as a csv?").ask()
+   
+    #control flow to check to see if there are any loans to save
     if save_prompt == True and len(qualifying_loans)>= 1:
+        
+        #csv headers 
         headers = ['Bank','Max Loan Amount','Max LTV','Max DTI','Min Credit Score','Interest Rate']
+        
+        #user inputs csvpath where they want to save csv
         csvpath = questionary.text("Enter a file path to save with <file name.csv> at end:").ask()
-        #csvpath = Path("Qualified_loans.csv")
         with open (csvpath, 'w', newline='') as csvfile:
             csvwriter = csv.writer(csvfile)
             csvwriter.writerow(headers)
@@ -123,6 +130,7 @@ def save_qualifying_loans(qualifying_loans):
                 csvwriter.writerow(bank)
     elif save_prompt == True and len(qualifying_loans) == 0:
         print('You do not have any qualifying loans, there is nothing to save')
+   #user does not want to save list, print confirmation
     else:
         print('User does not want to save qualifying loans list')
 
