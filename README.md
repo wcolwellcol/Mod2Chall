@@ -13,7 +13,9 @@ The [filters](url) folder contains functions that are stored in the [utils](fold
 ____
 ### Specs on the 'app.py' notebook:
 
-The 'app.py' notebook utilizes Python Fire and Questionary to make this application user friendly. They are used in conjunction to translate questions requiring specific "code syntax" to answer to common english, resulting in ease of use. After the user's information is processed: ...... fill out later......
+The 'app.py' notebook utilizes Python Fire and Questionary to make this application user friendly. They are used in conjunction to translate questions requiring specific "code syntax" to answer to common english, resulting in ease of use. After the user's information is processed, the code will check for the length of the qualifying loans list.
+
+If the length of qualifying loans is greater than 0, the user will have the option of specifying a path to save the loans list as a CSV.
 
 
 
