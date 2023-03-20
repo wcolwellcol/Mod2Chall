@@ -113,14 +113,16 @@ def save_qualifying_loans(qualifying_loans):
     # YOUR CODE HERE!
     save_prompt = questionary.confirm("Would you like to save your loans as a csv?").ask()
     if save_prompt == True and len(qualifying_loans)>= 1:
-        csvpath = questionary.text("Enter a file path to save (.csv):").ask()
+        headers = ['Bank','Max Loan Amount','Max LTV','Max DTI','Min Credit Score','Interest Rate']
+        csvpath = questionary.text("Enter a file path to save with <file name.csv> at end:").ask()
         #csvpath = Path("Qualified_loans.csv")
         with open (csvpath, 'w', newline='') as csvfile:
             csvwriter = csv.writer(csvfile)
+            csvwriter.writerow(headers)
             for bank in qualifying_loans:
                 csvwriter.writerow(bank)
     elif save_prompt == True and len(qualifying_loans) == 0:
-        print('You do not have any qualifying loans')
+        print('You do not have any qualifying loans, there is nothing to save')
     else:
         print('User does not want to save qualifying loans list')
 
