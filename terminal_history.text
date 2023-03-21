@@ -1,0 +1,385 @@
+   50  python hello_python.py
+   51  conda deactivate
+   52  PWD
+   53  ls
+   54  cd ..
+   55  ls
+   56  01_Hello_Variable_World
+   57  01_Hello_Variable_World
+   58  cd 01_Hello_Variable_World
+   59  ls
+   60  cd Unsolved
+   61  ls
+   62  conda activate dev
+   63  ls
+   64  python hello_variable_world.py
+   65  python hello_variable_world.py
+   66  python hello_variable_world.py
+   67  python hello_variable_world.py
+   68  python hello_variable_world.py
+   69  python hello_variable_world.py
+   70  python hello_variable_world.py
+   71  python hello_variable_world.py
+   72  python hello_variable_world.py
+   73  python hello_variable_world.py
+   74  python hello_variable_world.py
+   75  python hello_variable_world.py
+   76  python hello_variable_world.py
+   77  python hello_variable_world.py
+   78  python hello_variable_world.py
+   79  pwd
+   80  cd ..
+   81  cd ..
+   82  ls
+   83  cd 02_Listing_Assets
+   84  cd Unsolved
+   85  ls
+   86  python listing_assets.py
+   87  python listing_assets.py
+   88  python listing_assets.py
+   89  ls
+   90  cd ..
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd 02_Listing_Assets
+   95  ls
+   96  cd Unsolved
+   97  ls
+   98  python listing_assets.py
+   99  cd ..
+  100  cd ..
+  101  ls
+  102  cd 03_The_401k_Shuffle
+  103  cd Unsolved
+  104  ls
+  105  python the_401k_shuffle.py
+  106  cd ~
+  107  python -m ipykernel install willcolwell@Wills-MacBook-Pro-2
+  108  python -m ipykernel install willcolwell@Wills-MacBook-Pro-2 dev
+  109  python -m ipykernel install willcolwell dev
+  110  python -m ipykernel install --willcolwell dev
+  111  python -m ipykernel install --willcolwell dev
+  112  python -m ipykernel install --willcolwell--willcolwell dev
+  113  python -m ipykernel install --user--name dev
+  114  python -m ipykernel install Will Colwell dev
+  115  conda deactivate
+  116  python -m ipykernel install --willcolwell dev
+  117  python -m ipykernel install willcolwell dev
+  118  python -m ipykernel install --user willcolwell dev
+  119  python -m ipykernel install --user --willcolwell dev
+  120  python -m ipykernel install --user
+  121  conda activate dev
+  122  ls
+  123  Desktop
+  124  cd Desktop
+  125  ls
+  126  cd Fintech-Workspace
+  127  ls
+  128  cd 01_Conditional_Statement
+  129  cd Unsolved
+  130  ls
+  131  python conditional_statement.py
+  132  python conditional_statement.py
+  133  python conditional_statement.py
+  134  cd ..
+  135  cd ..
+  136  ls
+  137  cd 02_Nested_Conditionals
+  138  cd Unsolved
+  139  ls
+  140  python nested_conditionals.py
+  141  python nested_conditionals.py
+  142  cd ..
+  143  cd ..
+  144  ls
+  145  cd 03_Split_Second_Homebuying
+  146  cd Unsolved
+  147  ls..
+  148  ls
+  149   python split_second_homebuying.py
+  150   python split_second_homebuying.py
+  151  cd ~
+  152  python -m ipykernel install --user --name dev
+  153  jupyter lab
+  154  conda install -c conda-forge nodejs
+  155  conda activate dev
+  156  python cli.py
+  157  conda deactivate
+  158  python cli.py
+  159  pwd
+  160  cd Desktop
+  161  ls
+  162  cd Fintech-Workspace
+  163  ls
+  164  cd Module 2
+  165  cd Module 2
+  166  cd Module%202
+  167  ls
+  168  cd Module_2
+  169  ls
+  170  cd async
+  171  ls
+  172  cd 226_Modularize_Your_Loan_Qualifier_Application_Part_2
+  173  ls
+  174  cd Unsolved
+  175  ls
+  176  cd qualifier
+  177  cd
+  178  ls
+  179  cd Desktop
+  180  cd Module_2
+  181  cd Fintech-Workspace
+  182  cd Module_2
+  183  cd async
+  184  cd 226_Modularize_Your_Loan_Qualifier_Application_Part_2
+  185  cd Unsolved
+  186  cd qualifier
+  187  ls
+  188  ..
+  189  cd ..
+  190  ls
+  191  python app.py
+  192  conda activate dev
+  193  python cli.py
+  194  cd
+  195  python cli.py
+  196  pwd
+  197  ls
+  198  cd Desktop
+  199  ls
+  200  cd Fintech-Workspace
+  201  ls
+  202  cd Livetuesday
+  203  ls
+  204  cd Class_1_Activities
+  205  ls
+  206  cd 02_Stu_Percent_Increase
+  207  cd ~
+  208  conda activate dev
+  209  jupyter notebook
+  210  cd Desktop
+  211  ls
+  212  cd Fintech-Workspace
+  213  ls
+  214  python cli.py
+  215  python cli.py
+  216  conda activate dev
+  217  conda activate dev
+  218  python cli.py
+  219  python cli.py --pants=True
+  220  python cli.py --pants=True
+  221  python cli.py --pants=True
+  222  ls
+  223  cd Module_2
+  224  ls
+  225  cd asyn
+  226  cd async
+  227  ls
+  228  cd 234_Adding_Fire_to_the_Loan_Qualifier_App
+  229  cd Unsolved
+  230  python app.py --credit_score=750
+  231  pyathon app.py --credit_score=700 --debt = 3000 --income=25000
+  232  python app.py --credit_score=700 --debt = 3000 --income=25000
+  233  ls
+  234  cd ..
+  235  conda activate dev
+  236  pip -v
+  237  pip freeze
+  238  pip install fire
+  239  pip install questionary
+  240  cd Desktop
+  241  ls
+  242  cd Fintech-Workspace
+  243  ls
+  244  cd Module_2
+  245  ls
+  246  cd async
+  247  ls
+  248  cd 234_Adding_Fire_to_the_Loan_Qualifier_App
+  249  ls
+  250  cd Unsolved
+  251  python app.py --credit_score=700 --debt=3000 --income=4500
+  252  conda activate dev
+  253  python app.py --credit_score=700 --debt=3000 --income=4500
+  254  ..
+  255  cd..
+  256  cd..
+  257  cd ..
+  258  cd ..
+  259  cd ..
+  260  cd ..
+  261  ls
+  262  python dialog.py
+  263  python dialog.py
+  264  python dialog.py
+  265  code .
+  266  ls
+  267  cd Module_2
+  268  ls
+  269  cd async
+  270  ls
+  271  cd 236_Adding_questionary_to_Loan_Qualifier
+  272  cd Unsolved
+  273  python app.py --credit_score=750 --debt=5000 --income=20000
+  274  python app.py --credit_score=750 --debt=5000 --income=20000
+  275  python app.py
+  276  ls
+  277  python app.py
+  278  python app.py
+  279  python app.py
+  280  python app.py
+  281  python app.py
+  282  python app.py
+  283  python app.py
+  284  cd
+  285  git config --wcolwellcol <will colwell>
+  286  git config --wcolwellcol <willcolwell>
+  287  git config --global wcolwellcol
+  288  git config --global wcolwellcol <willcolwell>
+  289  git config --global wcolwell
+  290  git config --global wcolwellcol
+  291  .git/config
+  292  ls -al ~/.ssh
+  293  git config --global willcolwell
+  294  git config --global will.colwell
+  295  git config --global willcolwellsoccer@gmail
+  296  git config --global willcolwellsoccer@gmail.email
+  297  git config --list
+  298  git config --global user.name willcolwell
+  299  git config --global user.email willcolwellsoccer@gmail.com
+  300  git config --list
+  301  cd Desktop
+  302  ls
+  303  cd Fintech-Workspace
+  304  git clone https://github.com/wcolwellcol/Test_Repo.git
+  305  git status
+  306  ls
+  307  cd Test_Repo
+  308  git status
+  309  git add README.md
+  310  git status
+  311  touch
+  312  ls
+  313  git status
+  314  touch NewFile.txt
+  315  ls
+  316  git status
+  317  git add NewFile.txt
+  318  git status
+  319  git commit -m "<This is a test commit>"
+  320  git status
+  321  git push
+  322  git config --global wcolwellcol
+  323  ls -al ~/.ssh
+  324  clear
+  325  pwd
+  326  cd ~/.ssh
+  327  ls
+  328  cd
+  329  git config --global wcolwellcol
+  330  git config --global user.name wcolwellcol
+  331  git config --global user.email willcolwellsoccer@gmail.com
+  332  pwd
+  333  cd Desktop/Fintech-Workspace/FinTechCourseWork
+  334  ls
+  335  cd ../Test_Repo
+  336  ls
+  337  vim README.md
+  338  git status
+  339  git commit -m "adding sample line to readme"
+  340  git status
+  341  git add README.md
+  342  git commit -m "adding sample line to readme"
+  343  git push
+  344  cd ..
+  345  cd .
+  346  ls
+  347  jupyter notebook
+  348  jupyter lab
+  349  ls
+  350  cd Desktop
+  351  ls
+  352  cd Fintech-Workspace
+  353  ls
+  354  cd Test_Repo
+  355  ls
+  356  git clone git@github.com:wcolwellcol/Test_Repo.git
+  357  cd
+  358  cd Desktop
+  359  ls
+  360  cd Fintech-Workspace
+  361  ls
+  362  FinTechCourseWork
+  363  cd FinTechCourseWork
+  364  git clone git@github.com:wcolwellcol/Mod2Chall.git
+  365  ls
+  366  cd Mod2Chall
+  367  ls
+  368  git status
+  369  open .
+  370  man mv
+  371  git status
+  372  git add app.py
+  373  git status
+  374  git commit -m "Initial commit for core code in loan qualifier app"
+  375  git status
+  376  git push
+  377  git status
+  378  git status
+  379  git add README.md
+  380  git add app.py
+  381  git status
+  382  git commit -m "First attempts at updating app.py and updating the README. Still have issues figuring out what the task is requiring. Need to determine if save_qualifying_loans function is only thing I need to make or whether I need to make a save_csv function as well" 
+  383  git status
+  384  git push
+  385  git status
+  386  ls
+  387  conda activate dev
+  388  ls
+  389  python app.py
+  390  python app.py
+  391  python app.py
+  392  python app.py
+  393  python app.py
+  394  python app.py
+  395  python app.py
+  396  python app.py
+  397  python app.py
+  398  python app.py
+  399  python app.py
+  400  python app.py
+  401  git status
+  402  git commit - m "Fixed the save csv functionality"
+  403  git add app.py
+  404  git status
+  405  git commit -m "Fixed the save csv Functionality"
+  406  git status
+  407  git push
+  408  git status
+  409  git add README.md
+  410  git commit -m "Updating README to reflect csv functionality"
+  411  git push
+  412  git add data/
+  413  git status
+  414  git commit -m "Adding folder which holds bank info in a csv"
+  415  git push
+  416  git status
+  417  git add qualifier/
+  418  git status
+  419  git commit -m "Adding utils and filters notebooks which app.py draws upon"
+  420  git push
+  421  git status
+  422  git status
+  423  git add .gitignore
+  424  git status
+  425  git commit -m "Adding DS store to .gitignore"
+  426  git push
+  427  git status
+  428  git add README.md
+  429  git commit -m "Aesthetic updates to README and linking URLs"
+  430  git push
+  431  git status
+  432  git add app.py
+  433  git commit -m "Commenting code"
+  434  git push
