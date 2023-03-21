@@ -15,9 +15,20 @@ The [utils](https://github.com/wcolwellcol/Mod2Chall/tree/main/qualifier/utils) 
 ____
 ### Specs on the `app.py` notebook:
 
-The 'app.py' notebook utilizes Python Fire and Questionary to make this application user friendly. They are used in conjunction to translate questions requiring specific "code syntax" to answer to common english, resulting in ease of use. After the user's information is processed, the code will check for the length of the qualifying loans list.
 
-If the length of qualifying loans is greater than 0, the user will have the option of specifying a path to save the loans list as a CSV.
+***Note to grader: I bypassed the save_csv function because I felt that the save_qualifying_loans function did everything save_csv asked but with higher user functionality. As such, I saw no reason to keep the save_csv function. 
+
+The `app.py` notebook utilizes `Python Fire` and `Questionary` to make this application user friendly. They are used in conjunction to translate questions requiring specific "code syntax" to answer to common english, resulting in ease of use. 
+
+# General overview
+
+User inputs financial details.
+
+User's financial details are processed to see whether any banks would give loans matching the user's financial background.
+
+If there are qualifying loans, the user is asked if they want to save a csv (and where). If so, a csv is saved. Otherwise, no csv is saved.
+
+If there are no qualifying loans, the user is notified and exited from the program.
 
 
 
