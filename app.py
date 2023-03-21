@@ -104,7 +104,10 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
 
 def save_qualifying_loans(qualifying_loans):
-    """Saves the qualifying loans to a CSV file.
+    """Saves the qualifying loans to a CSV file if the user opts into saving.
+    Otherwise, will print that qualifying loans are not saved.
+    If user has no loans to save, regardless of user input the function will notify the user
+    their list is not going to be saved.
 
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
