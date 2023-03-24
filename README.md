@@ -14,7 +14,7 @@ The [filters](https://github.com/wcolwellcol/Mod2Chall/tree/main/qualifier/filte
 The [utils](https://github.com/wcolwellcol/Mod2Chall/tree/main/qualifier/utils) contains functions called upon in the various filter notebooks, mainly those in [calculators.py](https://github.com/wcolwellcol/Mod2Chall/blob/main/qualifier/utils/calculators.py)
 
 At the core of `calculators.py` are two calculations: the monthly debt ratio and loan to value ratio. These are calculated as follows:
-'''
+```
 def calculate_monthly_debt_ratio(monthly_debt_payment, monthly_income):
     """Calculates users monthly debt to income ratio.
 
@@ -41,7 +41,7 @@ def calculate_loan_to_value_ratio(loan_amount, home_value):
     """
     loan_to_value_ratio = int(loan_amount) / int(home_value)
     return loan_to_value_ratio
-'''
+```
 ____
 ### Specs on the `app.py` notebook:
 
