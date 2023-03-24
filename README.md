@@ -43,11 +43,11 @@ def calculate_loan_to_value_ratio(loan_amount, home_value):
     return loan_to_value_ratio
 ```
 ____
-### Specs on the `app.py` notebook:
+# Specs on the `app.py` notebook:
 
-The `app.py` notebook utilizes `Python Fire` and `Questionary` to make this application user friendly. They are used in conjunction to translate questions requiring specific "code syntax" to answer to common english, resulting in ease of use. 
+The `app.py` notebook utilizes [Python Fire](https://github.com/google/python-fire) and [Questionary](https://github.com/tmbo/questionary) to make this application user friendly and able to run from the CLI. They are used in conjunction to translate questions requiring specific "code syntax" to answer to common english, resulting in ease of use. 
 
-# `app.py` workflow
+### `app.py` workflow
 
 1. User inputs financial details.
 
