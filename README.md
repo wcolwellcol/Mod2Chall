@@ -22,7 +22,8 @@ For example,
 If you are unsure of what python version (if any) you have, here is a handy link to troubleshoot those issues. 
 [Installing python](https://realpython.com/installing-python/)
 
-
+---
+## Usage
 
 The primary application file is `app.py`.
 
@@ -65,7 +66,7 @@ def calculate_loan_to_value_ratio(loan_amount, home_value):
     return loan_to_value_ratio
 ```
 ____
-# Specs on the `app.py` notebook:
+### Specs on the `app.py` notebook:
 
 The `app.py` notebook utilizes [Python Fire](https://github.com/google/python-fire) and [Questionary](https://github.com/tmbo/questionary) to make this application user friendly and able to run from the CLI. They are used in conjunction to translate questions requiring specific "code syntax" to answer to common english, resulting in ease of use. 
 
