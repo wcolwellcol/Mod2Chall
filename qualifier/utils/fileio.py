@@ -34,8 +34,8 @@ def save_csv(path, data, headers):
 
     Args:
         path (Path): The csv file path.
-        data: data you are writing to the csv
-        headers: A list of column names
+        data : data you are writing to the csv
+        headers (list): A list of column names
 
     
     """
