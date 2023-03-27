@@ -1,6 +1,28 @@
-# Mod2Chall
+# Module 2 Challenge- Loan Qualifier App
 ___
-This is a repo for the Module 2 Challenge, specifically a loan qualifier app.
+This is a repo for the Module 2 Challenge, specifically a loan qualifier app. The problem I am attempting to solve is for a user to to identify banks from which they can successfully apply for loans from given certain financial background details.
+
+## Technologies
+This code was written using Python 3.7.13.
+My OS is Ventura 13.2.1 though it should be fine on most others. Note that the CLI in any screenshots may look different on different OSs.
+I used conda to manage all of my packages.
+Packages used:
+fire 0.5.0
+csv 1.0
+quesitonary 1.10.0
+
+Note: I also utilized built-in modules for Python (sys)
+
+## Installation
+All of these can be installed using `pip install <package here>` in your CLI.
+For example,
+`pip install questionary`
+`pip install fire`
+
+If you are unsure of what python version (if any) you have, here is a handy link to troubleshoot those issues. 
+[Installing python](https://realpython.com/installing-python/)
+
+
 
 The primary application file is `app.py`.
 
@@ -59,8 +81,34 @@ The `app.py` notebook utilizes [Python Fire](https://github.com/google/python-fi
 
 This workflow looks like this in the user's terminal:
 
-![workflow](/Users/willcolwell/Desktop/Screenshot 2023-03-26 at 11.16.37 PM.png)
+![workflow of CLI](/Users/willcolwell/Desktop/Screenshot 2023-03-26 at 11.16.37 PM.png)
 
 
+## Contributors
 
+This code was written by me, but the framework was provided by the Columbia Fintech Bootcamp
+
+## License
+
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
