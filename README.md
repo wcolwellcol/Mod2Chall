@@ -57,6 +57,10 @@ The `app.py` notebook utilizes [Python Fire](https://github.com/google/python-fi
 
 3b. If there are no qualifying loans, the user is notified and exited from the program.
 
+This workflow looks like this in the user's terminal:
+
+![workflow](/Users/willcolwell/Desktop/Screenshot 2023-03-26 at 11.16.37 PM.png)
+
 
 
 
